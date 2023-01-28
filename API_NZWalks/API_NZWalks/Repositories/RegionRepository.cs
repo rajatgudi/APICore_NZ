@@ -52,6 +52,7 @@ namespace API_NZWalks.Repositories
             {
                 return null;
             }
+            existingRegion.Code = region.Code;
             existingRegion.Name = region.Name;  
             existingRegion.Area = region.Area;
             existingRegion.Lat = region.Lat;
