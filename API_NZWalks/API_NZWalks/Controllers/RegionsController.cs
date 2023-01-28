@@ -42,6 +42,7 @@ namespace API_NZWalks.Controllers
             var regionsDto = mapper.Map<List<Models.DTO.Region>>(regions);
             return Ok(regionsDto);
         }
+
         [HttpGet]
         [Route("{id:guid}")]
         [ActionName("GetRegionAsync")]
